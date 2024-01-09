@@ -36,7 +36,7 @@ class _QuizState extends State<Quiz> {
               end: Alignment.bottomRight,
             ),
           ),
-          child: const activeScreen,
+          child: activeScreen,
         ),
       ),
     );
